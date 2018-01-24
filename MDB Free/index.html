@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="js/bootstap.js">
+
+    </script>
   </head>
   <body>
     <div class="container">
@@ -102,10 +105,11 @@
             </section>
             </div>
             <div class="row">
-              <section class="col-sm-8 table-responsive">
+              <section class="col-sm-12 table-responsive">
                 <table class="table table-bordered table-striped table-condensed">
                   <caption>
-                   <h4>the types of the flags</h4></caption>
+                   <h4>the types of the flags</h4>
+                 </caption>
                   <thead>
                     <tr class="success">
                       <th>country</th>
@@ -134,27 +138,19 @@
                 </table>
 
               </section>
-              <section class="col-sm-4">
-                <addres>
-<p>you can contact me in the below address</p>
-<strong>flag collection </strong>
-15 stoke road
-stoke on trent <br>
-                </address>
 
-              </section>
 
             </div>
             <section class="row">
-              <form class="well col-sm-6" >
+              <form class="well col-sm-12" >
                 <legend>comments please</legend>
                 <div class="form-group">
                   <label for="text">text:</label>
                   <input id="text" type="text" class="form-control">
                 </div>
                 <div class="form-group">
-                  <label for="textarea">text area:</label>
-                  <textarea id="textarea" type="textarea" class="from-control"></textarea>
+                  <label for="textarea">Textarea :</label>
+                  <textarea id="textarea" type="textarea" class="form-control"></textarea>
 
                 </div>
                 <div class="form-group">
@@ -167,11 +163,46 @@ stoke on trent <br>
                   </select>
 
                 </div>
-                <button type="button" name="button">enter</button>
+                <button type="button" >enter</button>
 
               </form>
 
             </section>
+            <div class="row">
+
+
+            <section class=" col-sm-8">
+            <form class="well" >
+              <legend>how did you find me</legend>
+              <fieldset>
+                <div class="radio">
+                  <label for="friend" class="radio">
+<input type="radio" name="origin" value="friend">friends
+                  </label>
+
+                </div>
+                <div class="radio">
+                  <label for="web">
+<input type="radio" name="origin" value="web">web
+                  </label>
+
+                </div>
+                <button type="submit" class="btn btn-primary" name="button">enter</button>
+              </fieldset>
+            </form>
+
+            </section>
+
+            <section class="col-sm-4">
+              <addres>
+<p>you can contact me in the below address</p>
+<strong>flag collection </strong>
+15 stoke road
+stoke on trent <br>
+              </address>
+
+            </section>
+            </div>
         </div>
 
   </body>

@@ -1,6 +1,7 @@
 body {
     margin-top: 10px;
-    background-color: #FDE3A7 !important;
+    background-color: #22313F !important;
+    color: #81CFE0 !important;
 }
 [class*="col"]{
   margin-bottom: 20px;
@@ -21,6 +22,6 @@ img{
   color: #336E7B;
 }
 .well {
-  background-color: #90C695;
+  background-color: #67809F;
   padding: 20px;
 }
