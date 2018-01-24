@@ -12,3 +12,8 @@ img{
 .pull-right{
   float: right !important;
 }
+.page-header{
+  padding-bottom: 10px;
+  margin:40px 0 20px;
+  border-bottom: 1px solid #59ABE3;
+}
